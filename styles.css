@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  background-color: #30336b;
+  color: #30336b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mainBox{
+  background-color: #ecf0f1;
+  position:absolute;
+  height: 40%;
+  width: 25%;
+  left: 37%;
+  top: 25%;
+}
+
+.title{
+  position: absolute;
+  top: 7%;
+  left: 35%;
+}
+
+input[type=text]{
+  transform: translate(-50%, -50%);
+  text-align: center;
+  outline: none;
+  position: absolute;
+  display: block;
+  margin: 1px auto;
+  background-color: #ecf0f1;
+  color: #30336b;
+  top: 37%;
+  left: 50%;
+  width: 20%;
+  transition: .4s;
+  padding: 8px 15px;
+  border: none;
+  border-bottom-width: 5px;
+  border-bottom: 2px solid #30336b;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+  width: 50%;
+}
+
+input[type=password]{
+  transform: translate(-50%, -50%);
+  text-align: center;
+  outline: none;
+  position: absolute;
+  color: #30336b;
+  top: 57%;
+  left: 50%;
+  width: 20%;
+  transition: .4s;
+  background-color: #ecf0f1;
+  padding: 8px 15px;
+  border: none;
+  border-bottom: 2px solid #30336b;
+}
+
+input[type=submit]{
+  outline: none;
+  position: absolute;
+  top: 80%;
+  left: 31%;
+  height: 10%;
+  width: 36%;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background-color: #30336b;
+  color: #ecf0f1;
+}
+
+input[type=submit]:hover{
+  transition: .4s;
+  background-color: #ecf0f1;
+  color: #30336b;
+}
